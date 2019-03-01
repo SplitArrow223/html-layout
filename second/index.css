@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 25px:
+}
+.container-one{
+    width: 90%;
+    margin: auto;
+    border: 4px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.square-one{
+    width: 2em;
+    height: 100px;
+    display: inline-block;
+    background-color: rgb(83, 5, 128)
+}
+.square-two{
+    width: 250px;
+    height: 150px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px 30px;
+}
+.circle-one{
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.container-two{
+    width: 90%;
+    height: 200px;
+    
+    border: 3px dotted black;
+    margin: 20px auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.box-shadow{
+   height: 120px;
+   width: 95%;
+   background-color: lemonchiffon;
+   margin: auto;
+   -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.74);
+}
+.container-three{
+    background-color: white;
+    width: 50%;
+    margin: 25px auto;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 100px;
+    -moz-box-shadow: 2px 2px 4px 0px rgba(128, 128, 128, 0.603);
+    /* box-shadow: 2px rgba(128, 128, 128, 0.603);
+    -webkit-box-shadow: 2px rgba(128, 128, 128, 0.623) */
+}
+.container-three h1{
+  letter-spacing: 5px;
+  color: navy;
+  display: inline-block;
+  text-align: center;
+
+}
